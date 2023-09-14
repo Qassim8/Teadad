@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدفع</title>
+            <!-- CSS Normalize File-->
+            <link rel="stylesheet" href="../css/normalize.css">
+            <!-- CSS FontAwesome File-->
+            <link rel="stylesheet" href="../css/all.min.css">
+            <!-- CSS Main File -->
+            <link rel="stylesheet" href="../css/main.css">
+                    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pay">
+        <div class="main-head">
+            <a href="home.html"><i class="fa-solid fa-xmark"></i></a>
+            <h2>الدفع</h2>
+        </div>
+        <div class="container">
+            <form action="" class="pay-form" dir="rtl">
+                <div>
+                    <input type="text" placeholder="الاسم رباعي" required>
+                    <input type="text" placeholder="العنوان" required>
+                    <input type="datetime" placeholder="التاريخ " required>
+                </div>
+                <div>
+                    <select name="" id="">
+                        <option value="khartoum">بنك الخرطوم</option>
+                        <option value="Faisal">فيصل</option>
+                        <option value="Islamic">الاسلامي</option>
+                    </select>
+                    <input type="text" placeholder="نوع الحساب" required>
+                    <input type="password" placeholder="رقم الحساب" required>
+                    <input type="number" placeholder="رقم البطاقة" required>
+                </div>
+                <input type="number" placeholder="حساب الموقع" required>
+                <input type="number" placeholder="المبلغ" required>
+                <div>
+                    <input type="number" placeholder="الرقم الوطني " required>
+                    <input type="datetime" placeholder="تاريخ اصداره" required>
+                </div>
+                <div class="btn">
+                    <input type="submit" value="ارسال">
+                </div>
+            </form>
+            <div class="popup">
+                <div class="suc-popup">
+                    <i class="fa-solid fa-xmark cross"></i>
+                    <i class="fa-solid fa-check fa-3x"></i>
+                    <h2> تمت العملية</h2>
+                    <span>سنرسل لك صورة من الشهادة في الايميل</span>
+                </div>
+                    <div class="fail-popup">
+                        <i class="fa-solid fa-xmark cros"></i>
+                        <i class="fa-solid fa-xmark fa-3x"></i>
+                        <h2> اعد المحاولة</h2>
+                    </div>
+            </div>
+        </div>
+        <footer>كل الحقوق محفوظة &copy; تعداد - 2022 </footer>
+    </div>
+            <!-- JavaScript Source -->
+            <script src="../js/pay.js"></script>
+</body>
+</html>
